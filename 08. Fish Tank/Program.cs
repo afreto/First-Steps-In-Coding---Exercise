@@ -6,7 +6,6 @@ namespace _08._Fish_Tank
     {
         static void Main(string[] args)
         {
-
             int leigth = int.Parse(Console.ReadLine());
             int width = int.Parse(Console.ReadLine());
             int height = int.Parse(Console.ReadLine());

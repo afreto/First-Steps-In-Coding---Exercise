@@ -6,7 +6,6 @@ namespace _07._Fruit_Market
     {
         static void Main(string[] args)
         {
-
             double priceOfStrawberry = double.Parse(Console.ReadLine());
             double amountOfBanana = double.Parse(Console.ReadLine());
             double amountOfOrange = double.Parse(Console.ReadLine());
