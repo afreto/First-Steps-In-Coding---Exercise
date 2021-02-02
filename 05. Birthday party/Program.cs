@@ -11,6 +11,7 @@ namespace _05._Birthday_party
             double drinksPrice = cakePrice - (cakePrice * 0.45);
             double animatorPrice = rent / 3;
             double budget = rent + cakePrice + drinksPrice + animatorPrice;
+
             Console.WriteLine(budget);
         }
     }

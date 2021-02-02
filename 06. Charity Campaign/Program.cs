@@ -14,10 +14,12 @@ namespace _06._Charity_Campaign
             int numOfCakes = int.Parse(Console.ReadLine());
             int numOfWaffles = int.Parse(Console.ReadLine());
             int numOfPancakes = int.Parse(Console.ReadLine());
+
             double sumPerDay = ((numOfCakes * priceOfCake) + (numOfWaffles * priceOfWaffle) + (numOfPancakes * priceOfPancake)) * numOfWorkers;
             double totalSumForCampain = sumPerDay * daysOfCampain;
             double productsCost = totalSumForCampain / 8;
             double totalSum = totalSumForCampain - productsCost;
+
             Console.WriteLine(totalSum);
         }
     }
